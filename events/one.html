@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Eventshr</title>
+</head>
+
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+        <ul>
+            <li><img width="200px" id="first"
+                    src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg"
+                    alt="image"></li>
+            <li><img width="200px" id="two" src="https://static.vecteezy.com/system/resources/thumbnails/031/411/876/small_2x/ai-generated-ai-generative-nature-outdoor-landscape-bacgkround-with-hill-mountain-field-meadow-countryside-and-road-graphic-art-photo.jpg"
+                    alt="image"></li>
+            <li><img src="https://wallpapercave.com/wp/wp2555019.jpg" width="200px" id="three" alt="img"></li>
+            <li>
+                <a  style="color: aliceblue;"  href="https://www.youtube.com/" id="yt">youtube</a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    document.getElementById('first').onclick=function(){
+        alert("first clicked")
+    }
+
+
+    document.getElementById("two").addEventListener("click",function (){
+        alert("second image clicked")
+    })
+
+</script>
+</html>
