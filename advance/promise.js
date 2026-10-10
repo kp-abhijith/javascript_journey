@@ -38,25 +38,26 @@
 
 
 
-const promisetwo= new Promise(function(resolve, reject){
-    setTimeout(function(){
-        let error = false
-        if (!error) {
-            resolve({username: "hitesh", password: "123"})
-        } else {
-            reject('ERROR: Something went wrong')
-        }
-    }, 1000)
-})
+// const promisetwo= new Promise(function(resolve, reject){
+//     setTimeout(function(){
+//         let error = false
+//         if (!error) {
+//             resolve({username: "hitesh", password: "123"})
+//         } else {
+//             reject('ERROR: Something went wrong')
+//         }
+//     }, 1000)
+// })
 
-async function test() {
-    try{
-        const response =await promisetwo
-        console.log(response .username)
-    }
-    catch(error){
-        console.log(error);
-    }
+// async function test() {
+//     try{
+//         const response =await promisetwo
+//         console.log(response .username)
+//     }
+//     catch(error){
+//         console.log(error);
+//     }
     
-}
-test();
+// }
+// test();
+
